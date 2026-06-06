@@ -7,11 +7,11 @@ response = chat(
     messages=[
         {
             'role': 'user',
-            'content': f'Correct the grammar and return only the corrected sentence: {sentence}'
+            'content': sentence
         },
         {
             'role': 'system',
-            'content': 'Rewrite professionally and return only the rewritten text.'
+            'content': 'You are a helpful assistant that rewrites text professionally.'
         }
     ]
 )
